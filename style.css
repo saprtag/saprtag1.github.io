@@ -1,12 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0e1f27;
   min-height: 1800px;
   background: url(https://pp.userapi.com/c849220/v849220947/1988e3/8B9WLBHoAxI.jpg);
   background-repeat: no-repeat;
   background-position-x: 50%;
-  
+  background-color: #0e1f27;
   
 }
 .header {
