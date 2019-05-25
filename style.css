@@ -1,12 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 1800px;
   background: url(https://pp.userapi.com/c849220/v849220947/1988e3/8B9WLBHoAxI.jpg);
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-color: #0e1f27;
-  
+  overflow: hidden
 }
 .header {
   /* border-bottom: 1px solid red;  */
@@ -41,6 +40,11 @@ body {
   position: absolute;
   font-size: 30px;
 }
+.name:hover {
+
+text-shadow: rgb(43, 255, 0) 2px 2px;
+
+}
 span {
   font-family: 'Anton', sans-serif;
 }
@@ -63,18 +67,18 @@ span {
   top: -20px;
   animation: text-color 5s infinite ease-in-out;
 }
-.visual_effect{
-  height: 200px;
-  width: 200px;
+/* .visual_effect{
+  height: 100px;
+  width: 100px;
   border: 3px solid rgba(123, 255, 0);
-  top: 25%;
+  top: 50%;
   position: absolute;
   border-radius: 55px; 
   animation: reloud 3s  infinite;
   transition: all 1s;
   border-top:3px solid transparent ;
   border-bottom: 3px solid transparent;
-}
+} */
 @keyframes reloud{
   0%{
   border: 3px solid rgba(123, 255, 0);
@@ -114,7 +118,7 @@ span {
     color: rgb(0, 255, 13);
   }
 }
-.visual_effect{
+/* .visual_effect{
   height: 100px;
   width: 100px;
   border: 3px solid rgba(123, 255, 0);
@@ -125,8 +129,8 @@ span {
   transition: all 1s;
   border-top:3px solid transparent ;
   border-bottom: 3px solid transparent;
-}
-@keyframes reloud{
+} */
+/* @keyframes reloud{
   0%{
   border: 3px solid rgba(123, 255, 0);
   border-top:3px solid transparent ;
@@ -138,17 +142,23 @@ span {
     border-right-color: rgb(0, 255, 251);
     
   }
-}
+} */
 .boding{
   margin: 0;
   position: absolute;
   height: 100px;
+  border-top: 5px solid red;
   border-bottom: 5px solid red;
   bottom: 0;
   width: 100%;
-  transform: translateY(5px);
+  transition: all 1s;
+  transform: translateY(105px);
+  border-top-width: 5px;
 }
-
+/* .boding:hover{
+  transform: translateY(0px);
+  
+} */
 
   @media screen and (max-width: 790px){
 body{ 
@@ -175,15 +185,9 @@ z-index: 2; }
  } 
   span { font-family: 'Anton', sans-serif; } 
   .visual_effect{
-  	top:50%;
+  	top:22%;
   }
 } 
-
-
-
-
-
-
-
-
-
+.hot{
+  transform: translateY(0px);
+}
