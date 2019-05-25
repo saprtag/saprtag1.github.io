@@ -64,8 +64,8 @@ span {
   animation: text-color 5s infinite ease-in-out;
 }
 .visual_effect{
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   border: 3px solid rgba(123, 255, 0);
   top: 25%;
   position: absolute;
@@ -175,7 +175,7 @@ z-index: 2; }
  } 
   span { font-family: 'Anton', sans-serif; } 
   .visual_effect{
-  	top:22%;
+  	top:50%;
   }
 } 
 
