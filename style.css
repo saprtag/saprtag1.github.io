@@ -134,6 +134,9 @@ span {
   border-radius: 15px ;
   transition: transform 1s, top 1s;
 }
+.arrow:hover{
+  opacity: 1;
+}
 .rotate{
   transform: rotate(0deg);
   opacity: 1;
